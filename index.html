@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+    <title>--</title>
+</head>
+    <body>
+        <div>
+            <h2>Задача 1</h2>
+            <p>Нажмите красную кнопку. Вам выведет элементы массива ['чай', 'шпроты', 'печенье', 'сахар', 'чипсы']</p>
+            <input type="button" class="send" id="quest1-btn" value="Нажмите" onclick="Quest1()">
+            <p class="labelText" id="l-txt1"></p>
+        </div>
+
+        <div>
+            <h2>Задача 2.1</h2>
+            <p>Есть массив чисел [2,2,2,1,1,2,4,5,8,6,8,9,-2,7,2,1,8,7] Введите любое число и вам выдаст его последний индекс в массиве или -1, если оно отсутствует. </p>
+            <input type="number" class="num-txt" id="quest2-1-num" onkeyup="Quest2_1()">
+            <p class="labelText" id="l-txt2-1"></p>
+        </div>
+
+        <div>
+            <h2>Задача 2.2</h2>
+            <p>Введите число из массива [2,9,4,5,8,6,-2,7]. Вам выдаст его индекс после сортировки.</p>
+            <input type="number" class="num-txt" id="quest2-2-num" onkeyup="Quest2_2()">
+            <p class="labelText" id="l-txt2-2"></p>
+        </div>
+
+        <div>
+            <h2>Задача 3</h2>
+            <p>Введите грязную зарплату, а я выдам вам чистую.</p>
+            <input type="number" class="num-txt" id="quest3-num" onkeyup="Quest3()">
+            <p class="labelText" id="l-txt3"></p>
+        </div>
+
+        <div>
+            <h2>Задача 4.1</h2>
+            <p>Введите количество часов и отметьте срочный ли проект, а я выдам стоимость</p>
+            <input type="number" class="num-txt" id="quest4-1-num" onkeyup="Quest4_1()">
+            <div class="myLine"><input type="checkbox" id="quest4-1-bool" onclick="Quest4_1()"><span>Срочный ли?</span></div>
+            <p class="labelText" id="l-txt4-1"></p>
+        </div>
+
+        <div>
+            <h2>Задача 4.2</h2>
+            <p>Выберите тариф и комплектующие, и вам выдаст цену покупки</p>
+            <div class="myLine">
+                <select class="num-txt" id="quest4-2-sel1" onchange="Quest4_2()">
+                    <option value=""></option>
+                    <option value="Base">Базовый</option>
+                    <option value="Pro">Улучшенный</option>
+                </select>
+                <select class="num-txt" id="quest4-2-sel2" onchange="Quest4_2()">
+                    <option value="0">Без дополнительных опций</option>
+                    <option value="1">Супер процессор</option>
+                    <option value="2">Супер видеокарта</option>
+                </select>
+            </div>
+            <p class="labelText" id="l-txt4-2"></p>
+        </div>
+
+
+        <div>
+            <h2>Задача 5</h2>
+            <p>Введите имя ключа age для сортировки массива со словарями. Ответ ниже или в консоли.
+            </p>
+            <input type="text" class="num-txt" id="quest5-txt" onkeyup="Quest5()">
+            <p class="labelText" id="l-txt5"></p>
+        </div>
+
+        <div>
+            <h2>Задача 6</h2>
+            <p>Просто нажмите красную кнопку. Я отработаю и выдам результат. Ответ ниже и в консоли.</p>
+            <input type="button" class="send" id="quest6-btn" value="Нажмите" onclick="Quest6()">
+            <p class="labelText" id="l-txt6"></p>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

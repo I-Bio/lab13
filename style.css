@@ -1,0 +1,48 @@
+div{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: bisque;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.num-txt{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 40px;
+}
+
+.send{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 40px;
+    width: auto;
+    background-color: brown;
+    color: white;
+}
+
+.myLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 40px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
